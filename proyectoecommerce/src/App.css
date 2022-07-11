@@ -1,3 +1,11 @@
+*{ 
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+
 .App {
   text-align: center;
 }
@@ -41,3 +49,58 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
+
+/*Inicio Doc Nuevo */
+.nav{ 
+ background-color: #352b20;
+ display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+height: auto;
+
+}
+
+.navLogo { 
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  margin: 7px 0px;
+}
+
+
+.navBar { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navBarItem { 
+color: #fff;
+margin: 10px;
+cursor: pointer;
+}
+
+.btnIngresar { 
+  color: rgb(255, 74, 61);
+  font-size: 1.1rem;
+  background-color:#fff ;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 1rem;
+  margin: 10px 0px;
+  transition: 0.5s ease;
+}
+
+.btnIngresar:hover { 
+  color: #fff;
+  background-color: rgb(255, 74, 61);
+}
+
+@media screen and (max-width:735px){ 
+
+}
