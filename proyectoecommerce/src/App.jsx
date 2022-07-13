@@ -1,16 +1,23 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import NavBar from './components/navBar/navbar'; 
-<script src="https://kit.fontawesome.com/4834373349.js" crossorigin="anonymous"></script>
+import Navbar from './navbar/navbar'
+import Formulario from './Formulario/Formulario'
+import Titulo from './Titulo/Titulo'
+import Footer from './Footer/Footer'
+import ComponenteContainer from './ComponenteContainer/ComponenteContainer'
+
 
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
-    <NavBar/>
+      <Navbar>
+      </Navbar>
+      <ComponenteContainer saludar="Bienvenido a Techno"/>
+    
     </div>
   )
 }
